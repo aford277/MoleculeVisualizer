@@ -1,4 +1,4 @@
-This project uses a combination of C, Python, and Javascript to run a website to visualize molecules. Users can upload cid files to the website and view what the molecule in that cid file looks like. Users have the option to customize the appearance of atoms and can add their own atoms (only some are available by default).
+This project uses a combination of C, Python, and Javascript to run a website to visualize molecules. Users can upload sdf files to the website and view what the molecule in that sdf file looks like. Users have the option to customize the appearance of atoms and can add their own atoms (only some are available by default).
 
 To run the project run the following commands:
 make
