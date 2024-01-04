@@ -1,0 +1,59 @@
+body {
+    background-color: #808080;
+    font-family: Arial, sans-serif;
+}
+
+h1 {font-size:3em; font-family:Arial;}
+
+table {
+    width: 50%;
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #55828A;
+}
+
+th, td {
+    background-color: #86CCD9;
+}
+
+button {
+    height: 20px;
+    width: 200px;
+    font-size: 14px;
+    background-color: #A9A9B0;
+  }
+
+  input[type="file"],
+  input[type="submit"]{
+    height: 20px;
+    width: 200px;
+    font-size: 14px;
+    background-color: #A9A9B0;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    border: none;
+    box-sizing: border-box;
+    background-color: #A9A9B0;
+  }
+
+  #element_button {
+    margin-bottom: 20px;
+  }
+
+#rotate_button{
+    margin-top: 10px;
+}
+
+#rotation_inputs {
+    display: none;
+}
+

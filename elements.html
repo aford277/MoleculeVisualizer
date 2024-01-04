@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Element Page </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"> </script>
+        <script src="./elementScript.js" /> </script>
+        <link rel="stylesheet" type="text/css" href="elements.css">
+    </head>
+    <body>
+        <button id = "back_button"> &lt;- Go back </button>
+        <h1> Elements</h1>
+        <table id="table" class="center">
+            <thead>
+                <tr>
+                    <th> &nbsp;Number&nbsp; </th>
+                    <th> &nbsp;Code&nbsp; </th>
+                    <th> &nbsp;Name&nbsp; </th>
+                    <th> &nbsp;Colour 1&nbsp; </th>
+                    <th> &nbsp;Colour 2&nbsp; </th>
+                    <th> &nbsp;Colour 3&nbsp; </th>
+                    <th> &nbsp;Radius&nbsp; </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <br>
+        
+        <div class="input-container-wrapper">
+            <div class="add_input">
+                <p style="font-size: 20px;"> <b>Add Element</b> </p>
+                <div class="input-container">
+                <label for="add_number">Number:</label>
+                <input type="text" id="add_number" size="14"/>
+                </div>
+                <div class="input-container">
+                <label for="add_code">Code:</label>
+                <input type="text" id="add_code" size="14"/>
+                </div>
+                <div class="input-container">
+                <label for="add_name">Name:</label>
+                <input type="text" id="add_name" size="14"/>
+                </div>
+                <div class="input-container">
+                <label for="add_colour_1">Colour 1:</label>
+                <input type="text" id="add_colour_1" size="14"/>
+                </div>
+                <div class="input-container">
+                <label for="add_colour_2">Colour 2:</label>
+                <input type="text" id="add_colour_2" size="14"/>
+                </div>
+                <div class="input-container">
+                <label for="add_colour_3">Colour 3:</label>
+                <input type="text" id="add_colour_3" size="14"/>
+                </div>
+                <div class="input-container">
+                <label for="add_radius">Radius:</label>
+                <input type="text" id="add_radius" size="14"/>
+                </div>
+                <button id="add_button" class="submit_button"> Submit </button>
+            </div>
+            
+            <div class="add_input">
+                <p style="font-size: 20px;"> <b>Remove Element</b> </p>
+                <div class="input-container">
+                    <label>Code:</label>
+                    <input type="text" id="remove_code" size="14"/>
+                </div>
+                <button id="remove_button" class="submit_button"> Submit </button>
+            </div>
+        </div>
+    </body>
+</html>

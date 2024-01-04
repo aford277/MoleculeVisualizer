@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Molecule Visualizer </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"> </script>
+        <script src="./homeScript.js" /> </script>
+        <link rel="stylesheet" type="text/css" href="home.css">
+    </head>
+    <body>
+        <h1 id = "title"> Molecule Visualizer </h1>
+        <button id = "element_button"> Add/Remove Elements </button>
+        <br>
+        <form action="molecule" enctype="multipart/form-data" method="post">
+            <label for="moleculeName">Molecule Name:</label>
+            <input type="text" id="moleculeName" name="moleculeName"><br><br>
+            <label for="sdfFile">SDF File:</label>
+            <input type="file" id="sdfFile" name="sdfFile"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <b style="font-size: 20px;">Molecules</b>
+        <br>
+        Double click on a molecule to display it
+        <table id="table">
+            <thead>
+                <tr>
+                    <th> &nbsp;Name&nbsp; </th>
+                    <th> &nbsp;Atoms&nbsp; </th>
+                    <th> &nbsp;Bonds&nbsp; </th>
+                </tr>
+            </thead>
+            <tbody class="body">
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <div id="rotation_inputs" style="display:none;">
+            <label>X-rotation:</label>
+            <input type="text" id="xrotation" size="6"/>
+            <label>&nbsp;Y-rotation:</label>
+            <input type="text" id="yrotation" size="6"/>
+            <label>&nbsp;Z-rotation:</label>
+            <input type="text" id="zrotation" size="6"/>
+            <br>
+            <button id="rotate_button"> Rotate </button>
+        </div>
+        <div id="svg_box">
+
+        </div>
+        
+    </body>
+</html>
