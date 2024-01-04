@@ -5,6 +5,8 @@ make
 export LD_LIBRARY_PATH=`pwd`
 python3 server.py (PORT NUMBER)
 
-where port number is the port you wish to view the page on. Then go to localhost:PORT NUMBER.
+where port number is the port you wish to view the page on. Then go to localhost:PORT NUMBER in your browser to access the website.
 
+NOTE
 This application is designed for linux based systems.
+Python 3.7 or higher is needed. A different library path may needed to be set that's different than the one provided above.
