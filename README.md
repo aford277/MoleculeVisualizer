@@ -10,3 +10,6 @@ where port number is the port you wish to view the page on. Then go to localhost
 NOTE
 This application is designed for linux based systems.
 Python 3.7 or higher is needed. A different library path may needed to be set that's different than the one provided above.
+
+Credits:
+The design/structure of the application and the molecule.i file were created by Dr Stefan Kremer. 
